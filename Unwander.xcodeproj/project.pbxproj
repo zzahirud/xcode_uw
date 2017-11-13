@@ -8,13 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		3D56009C1FB2AB74000B91F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56009B1FB2AB74000B91F7 /* AppDelegate.swift */; };
-		3D56009E1FB2AB74000B91F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56009D1FB2AB74000B91F7 /* ViewController.swift */; };
 		3D5600A11FB2AB74000B91F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D56009F1FB2AB74000B91F7 /* Main.storyboard */; };
-		3D5600A41FB2AB74000B91F7 /* Unwander.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600A21FB2AB74000B91F7 /* Unwander.xcdatamodeld */; };
 		3D5600A61FB2AB74000B91F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5600A51FB2AB74000B91F7 /* Assets.xcassets */; };
 		3D5600A91FB2AB74000B91F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5600A71FB2AB74000B91F7 /* LaunchScreen.storyboard */; };
 		3D5600B41FB2AB74000B91F7 /* UnwanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600B31FB2AB74000B91F7 /* UnwanderTests.swift */; };
 		3D5600BF1FB2AB74000B91F7 /* UnwanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600BE1FB2AB74000B91F7 /* UnwanderUITests.swift */; };
+		3D5600CD1FB2BDF2000B91F7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600CC1FB2BDF2000B91F7 /* CustomCell.swift */; };
+		3D5600CF1FB2BE2D000B91F7 /* CustomPlanDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600CE1FB2BE2D000B91F7 /* CustomPlanDetailsTableViewCell.swift */; };
+		3D5600D11FB2BE86000B91F7 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5600D01FB2BE86000B91F7 /* Auth0.plist */; };
+		3D5600D31FB2BEBE000B91F7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600D21FB2BEBE000B91F7 /* HomeViewController.swift */; };
+		3D5600D51FB2BEEF000B91F7 /* MyPlansTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600D41FB2BEEF000B91F7 /* MyPlansTableViewController.swift */; };
+		3D5600DA1FB2BF29000B91F7 /* PlanDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600D61FB2BF29000B91F7 /* PlanDetailsTableViewController.swift */; };
+		3D5600DB1FB2BF29000B91F7 /* PlansItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600D71FB2BF29000B91F7 /* PlansItem.swift */; };
+		3D5600DC1FB2BF29000B91F7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600D81FB2BF29000B91F7 /* ProfileViewController.swift */; };
+		3D5600DD1FB2BF29000B91F7 /* ResponseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600D91FB2BF29000B91F7 /* ResponseMapper.swift */; };
+		3D5600E51FB2BF85000B91F7 /* SavedPlansDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600DE1FB2BF85000B91F7 /* SavedPlansDetailsTableViewController.swift */; };
+		3D5600E61FB2BF85000B91F7 /* SavedPlansTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600DF1FB2BF85000B91F7 /* SavedPlansTableViewController.swift */; };
+		3D5600E71FB2BF85000B91F7 /* SavedSpotTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600E01FB2BF85000B91F7 /* SavedSpotTableViewController.swift */; };
+		3D5600E81FB2BF85000B91F7 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600E11FB2BF85000B91F7 /* SessionManager.swift */; };
+		3D5600E91FB2BF85000B91F7 /* SpotDetailsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600E21FB2BF85000B91F7 /* SpotDetailsItem.swift */; };
+		3D5600EA1FB2BF85000B91F7 /* SpotDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600E31FB2BF85000B91F7 /* SpotDetailsTableViewController.swift */; };
+		3D5600EB1FB2BF85000B91F7 /* Unwander_config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600E41FB2BF85000B91F7 /* Unwander_config.swift */; };
+		3D5600EE1FB2C05F000B91F7 /* Unwander.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600EC1FB2C05F000B91F7 /* Unwander.xcdatamodeld */; };
+		3D5600F01FB2C2D4000B91F7 /* AlertController+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5600EF1FB2C2D4000B91F7 /* AlertController+Convenience.swift */; };
+		3D5600F21FB2C53E000B91F7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5600F11FB2C53E000B91F7 /* Info.plist */; };
+		6CE51408034A7A6E78126B8E /* Pods_Unwander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882981D09972070EE9873002 /* Pods_Unwander.framework */; };
+		FC6832E0E268CE93CCDC881F /* Pods_UnwanderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052A27E9A6055778EC335202 /* Pods_UnwanderUITests.framework */; };
+		FF9950BEBE8B75DEF90D0D9D /* Pods_UnwanderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A08D728F373E9D8B3ACD8EC /* Pods_UnwanderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +55,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		052A27E9A6055778EC335202 /* Pods_UnwanderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnwanderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5600981FB2AB74000B91F7 /* Unwander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unwander.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D56009B1FB2AB74000B91F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D56009D1FB2AB74000B91F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D5600A01FB2AB74000B91F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3D5600A31FB2AB74000B91F7 /* Unwander.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Unwander.xcdatamodel; sourceTree = "<group>"; };
 		3D5600A51FB2AB74000B91F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D5600A81FB2AB74000B91F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D5600AA1FB2AB74000B91F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5600AF1FB2AB74000B91F7 /* UnwanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnwanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5600B31FB2AB74000B91F7 /* UnwanderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnwanderTests.swift; sourceTree = "<group>"; };
 		3D5600B51FB2AB74000B91F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5600BA1FB2AB74000B91F7 /* UnwanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnwanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5600BE1FB2AB74000B91F7 /* UnwanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnwanderUITests.swift; sourceTree = "<group>"; };
 		3D5600C01FB2AB74000B91F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5600CC1FB2BDF2000B91F7 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3D5600CE1FB2BE2D000B91F7 /* CustomPlanDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPlanDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		3D5600D01FB2BE86000B91F7 /* Auth0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		3D5600D21FB2BEBE000B91F7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D5600D41FB2BEEF000B91F7 /* MyPlansTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPlansTableViewController.swift; sourceTree = "<group>"; };
+		3D5600D61FB2BF29000B91F7 /* PlanDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanDetailsTableViewController.swift; sourceTree = "<group>"; };
+		3D5600D71FB2BF29000B91F7 /* PlansItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlansItem.swift; sourceTree = "<group>"; };
+		3D5600D81FB2BF29000B91F7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3D5600D91FB2BF29000B91F7 /* ResponseMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseMapper.swift; sourceTree = "<group>"; };
+		3D5600DE1FB2BF85000B91F7 /* SavedPlansDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPlansDetailsTableViewController.swift; sourceTree = "<group>"; };
+		3D5600DF1FB2BF85000B91F7 /* SavedPlansTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPlansTableViewController.swift; sourceTree = "<group>"; };
+		3D5600E01FB2BF85000B91F7 /* SavedSpotTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedSpotTableViewController.swift; sourceTree = "<group>"; };
+		3D5600E11FB2BF85000B91F7 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		3D5600E21FB2BF85000B91F7 /* SpotDetailsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotDetailsItem.swift; sourceTree = "<group>"; };
+		3D5600E31FB2BF85000B91F7 /* SpotDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotDetailsTableViewController.swift; sourceTree = "<group>"; };
+		3D5600E41FB2BF85000B91F7 /* Unwander_config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unwander_config.swift; sourceTree = "<group>"; };
+		3D5600ED1FB2C05F000B91F7 /* Auth0Sample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Auth0Sample.xcdatamodel; sourceTree = "<group>"; };
+		3D5600EF1FB2C2D4000B91F7 /* AlertController+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AlertController+Convenience.swift"; sourceTree = "<group>"; };
+		3D5600F11FB2C53E000B91F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452BD9DFBBA360A0DBF3DD62 /* Pods-UnwanderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnwanderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnwanderUITests/Pods-UnwanderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A08D728F373E9D8B3ACD8EC /* Pods_UnwanderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnwanderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		882981D09972070EE9873002 /* Pods_Unwander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unwander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		883FB8F705C67806746E27A0 /* Pods-UnwanderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnwanderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnwanderUITests/Pods-UnwanderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DB7F1A7442710A72E8E7154 /* Pods-UnwanderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnwanderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnwanderTests/Pods-UnwanderTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC68B9100C147196858063F6 /* Pods-UnwanderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnwanderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnwanderTests/Pods-UnwanderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C764F29C258E2E1AD88FA1E4 /* Pods-Unwander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unwander.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unwander/Pods-Unwander.release.xcconfig"; sourceTree = "<group>"; };
+		F5AAC7D1EEEC2E3727E92111 /* Pods-Unwander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unwander.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Unwander/Pods-Unwander.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE51408034A7A6E78126B8E /* Pods_Unwander.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9950BEBE8B75DEF90D0D9D /* Pods_UnwanderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6832E0E268CE93CCDC881F /* Pods_UnwanderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +131,8 @@
 				3D5600B21FB2AB74000B91F7 /* UnwanderTests */,
 				3D5600BD1FB2AB74000B91F7 /* UnwanderUITests */,
 				3D5600991FB2AB74000B91F7 /* Products */,
+				A9D26AAE2553A55E5F0CBD06 /* Pods */,
+				A33A70FDA1601902F8442F29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +149,29 @@
 		3D56009A1FB2AB74000B91F7 /* Unwander */ = {
 			isa = PBXGroup;
 			children = (
+				3D5600EF1FB2C2D4000B91F7 /* AlertController+Convenience.swift */,
+				3D5600DE1FB2BF85000B91F7 /* SavedPlansDetailsTableViewController.swift */,
+				3D5600DF1FB2BF85000B91F7 /* SavedPlansTableViewController.swift */,
+				3D5600E01FB2BF85000B91F7 /* SavedSpotTableViewController.swift */,
+				3D5600E11FB2BF85000B91F7 /* SessionManager.swift */,
+				3D5600E21FB2BF85000B91F7 /* SpotDetailsItem.swift */,
+				3D5600E31FB2BF85000B91F7 /* SpotDetailsTableViewController.swift */,
+				3D5600E41FB2BF85000B91F7 /* Unwander_config.swift */,
+				3D5600D61FB2BF29000B91F7 /* PlanDetailsTableViewController.swift */,
+				3D5600D71FB2BF29000B91F7 /* PlansItem.swift */,
+				3D5600D81FB2BF29000B91F7 /* ProfileViewController.swift */,
+				3D5600D91FB2BF29000B91F7 /* ResponseMapper.swift */,
 				3D56009B1FB2AB74000B91F7 /* AppDelegate.swift */,
-				3D56009D1FB2AB74000B91F7 /* ViewController.swift */,
 				3D56009F1FB2AB74000B91F7 /* Main.storyboard */,
+				3D5600CC1FB2BDF2000B91F7 /* CustomCell.swift */,
 				3D5600A51FB2AB74000B91F7 /* Assets.xcassets */,
+				3D5600CE1FB2BE2D000B91F7 /* CustomPlanDetailsTableViewCell.swift */,
+				3D5600D41FB2BEEF000B91F7 /* MyPlansTableViewController.swift */,
+				3D5600D21FB2BEBE000B91F7 /* HomeViewController.swift */,
 				3D5600A71FB2AB74000B91F7 /* LaunchScreen.storyboard */,
-				3D5600AA1FB2AB74000B91F7 /* Info.plist */,
-				3D5600A21FB2AB74000B91F7 /* Unwander.xcdatamodeld */,
+				3D5600D01FB2BE86000B91F7 /* Auth0.plist */,
+				3D5600F11FB2C53E000B91F7 /* Info.plist */,
+				3D5600EC1FB2C05F000B91F7 /* Unwander.xcdatamodeld */,
 			);
 			path = Unwander;
 			sourceTree = "<group>";
@@ -128,6 +194,29 @@
 			path = UnwanderUITests;
 			sourceTree = "<group>";
 		};
+		A33A70FDA1601902F8442F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882981D09972070EE9873002 /* Pods_Unwander.framework */,
+				5A08D728F373E9D8B3ACD8EC /* Pods_UnwanderTests.framework */,
+				052A27E9A6055778EC335202 /* Pods_UnwanderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9D26AAE2553A55E5F0CBD06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5AAC7D1EEEC2E3727E92111 /* Pods-Unwander.debug.xcconfig */,
+				C764F29C258E2E1AD88FA1E4 /* Pods-Unwander.release.xcconfig */,
+				BC68B9100C147196858063F6 /* Pods-UnwanderTests.debug.xcconfig */,
+				9DB7F1A7442710A72E8E7154 /* Pods-UnwanderTests.release.xcconfig */,
+				452BD9DFBBA360A0DBF3DD62 /* Pods-UnwanderUITests.debug.xcconfig */,
+				883FB8F705C67806746E27A0 /* Pods-UnwanderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D5600C31FB2AB74000B91F7 /* Build configuration list for PBXNativeTarget "Unwander" */;
 			buildPhases = (
+				FB4A3DE43929DB65CB7AD325 /* [CP] Check Pods Manifest.lock */,
 				3D5600941FB2AB74000B91F7 /* Sources */,
 				3D5600951FB2AB74000B91F7 /* Frameworks */,
 				3D5600961FB2AB74000B91F7 /* Resources */,
+				E933344E4D9A81D4CAB46BF8 /* [CP] Embed Pods Frameworks */,
+				E56A8C43C35F52C01B4DEF9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D5600C61FB2AB74000B91F7 /* Build configuration list for PBXNativeTarget "UnwanderTests" */;
 			buildPhases = (
+				64FBA6BDF6B21EEB1AA696C3 /* [CP] Check Pods Manifest.lock */,
 				3D5600AB1FB2AB74000B91F7 /* Sources */,
 				3D5600AC1FB2AB74000B91F7 /* Frameworks */,
 				3D5600AD1FB2AB74000B91F7 /* Resources */,
+				44DD9C545C473F00D3074173 /* [CP] Embed Pods Frameworks */,
+				B04CA8E2264FE57336F7A6B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D5600C91FB2AB74000B91F7 /* Build configuration list for PBXNativeTarget "UnwanderUITests" */;
 			buildPhases = (
+				AF58DD63C9079BC320CD3A2D /* [CP] Check Pods Manifest.lock */,
 				3D5600B61FB2AB74000B91F7 /* Sources */,
 				3D5600B71FB2AB74000B91F7 /* Frameworks */,
 				3D5600B81FB2AB74000B91F7 /* Resources */,
+				52BA107ED4343C343A379E64 /* [CP] Embed Pods Frameworks */,
+				EC48B585DFEFC08DF89D209D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +339,8 @@
 				3D5600A91FB2AB74000B91F7 /* LaunchScreen.storyboard in Resources */,
 				3D5600A61FB2AB74000B91F7 /* Assets.xcassets in Resources */,
 				3D5600A11FB2AB74000B91F7 /* Main.storyboard in Resources */,
+				3D5600F21FB2C53E000B91F7 /* Info.plist in Resources */,
+				3D5600D11FB2BE86000B91F7 /* Auth0.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +360,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44DD9C545C473F00D3074173 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnwanderTests/Pods-UnwanderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52BA107ED4343C343A379E64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnwanderUITests/Pods-UnwanderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64FBA6BDF6B21EEB1AA696C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnwanderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF58DD63C9079BC320CD3A2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnwanderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04CA8E2264FE57336F7A6B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnwanderTests/Pods-UnwanderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E56A8C43C35F52C01B4DEF9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Unwander/Pods-Unwander-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E933344E4D9A81D4CAB46BF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Unwander/Pods-Unwander-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Auth0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleKeychain.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Unwander/Pods-Unwander-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC48B585DFEFC08DF89D209D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnwanderUITests/Pods-UnwanderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB4A3DE43929DB65CB7AD325 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unwander-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D5600941FB2AB74000B91F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D56009E1FB2AB74000B91F7 /* ViewController.swift in Sources */,
-				3D5600A41FB2AB74000B91F7 /* Unwander.xcdatamodeld in Sources */,
+				3D5600D31FB2BEBE000B91F7 /* HomeViewController.swift in Sources */,
+				3D5600DD1FB2BF29000B91F7 /* ResponseMapper.swift in Sources */,
+				3D5600EB1FB2BF85000B91F7 /* Unwander_config.swift in Sources */,
+				3D5600EA1FB2BF85000B91F7 /* SpotDetailsTableViewController.swift in Sources */,
+				3D5600E71FB2BF85000B91F7 /* SavedSpotTableViewController.swift in Sources */,
+				3D5600DA1FB2BF29000B91F7 /* PlanDetailsTableViewController.swift in Sources */,
+				3D5600E91FB2BF85000B91F7 /* SpotDetailsItem.swift in Sources */,
+				3D5600CD1FB2BDF2000B91F7 /* CustomCell.swift in Sources */,
+				3D5600E81FB2BF85000B91F7 /* SessionManager.swift in Sources */,
+				3D5600E51FB2BF85000B91F7 /* SavedPlansDetailsTableViewController.swift in Sources */,
+				3D5600CF1FB2BE2D000B91F7 /* CustomPlanDetailsTableViewCell.swift in Sources */,
+				3D5600D51FB2BEEF000B91F7 /* MyPlansTableViewController.swift in Sources */,
+				3D5600F01FB2C2D4000B91F7 /* AlertController+Convenience.swift in Sources */,
+				3D5600DC1FB2BF29000B91F7 /* ProfileViewController.swift in Sources */,
 				3D56009C1FB2AB74000B91F7 /* AppDelegate.swift in Sources */,
+				3D5600E61FB2BF85000B91F7 /* SavedPlansTableViewController.swift in Sources */,
+				3D5600EE1FB2C05F000B91F7 /* Unwander.xcdatamodeld in Sources */,
+				3D5600DB1FB2BF29000B91F7 /* PlansItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +686,7 @@
 		};
 		3D5600C41FB2AB74000B91F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5AAC7D1EEEC2E3727E92111 /* Pods-Unwander.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M94RQJ62P4;
@@ -432,6 +700,7 @@
 		};
 		3D5600C51FB2AB74000B91F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C764F29C258E2E1AD88FA1E4 /* Pods-Unwander.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M94RQJ62P4;
@@ -445,6 +714,7 @@
 		};
 		3D5600C71FB2AB74000B91F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC68B9100C147196858063F6 /* Pods-UnwanderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +730,7 @@
 		};
 		3D5600C81FB2AB74000B91F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB7F1A7442710A72E8E7154 /* Pods-UnwanderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +746,7 @@
 		};
 		3D5600CA1FB2AB74000B91F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452BD9DFBBA360A0DBF3DD62 /* Pods-UnwanderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = M94RQJ62P4;
@@ -489,6 +761,7 @@
 		};
 		3D5600CB1FB2AB74000B91F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883FB8F705C67806746E27A0 /* Pods-UnwanderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = M94RQJ62P4;
@@ -520,6 +793,7 @@
 				3D5600C51FB2AB74000B91F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D5600C61FB2AB74000B91F7 /* Build configuration list for PBXNativeTarget "UnwanderTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +802,7 @@
 				3D5600C81FB2AB74000B91F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D5600C91FB2AB74000B91F7 /* Build configuration list for PBXNativeTarget "UnwanderUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,16 +811,17 @@
 				3D5600CB1FB2AB74000B91F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3D5600A21FB2AB74000B91F7 /* Unwander.xcdatamodeld */ = {
+		3D5600EC1FB2C05F000B91F7 /* Unwander.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3D5600A31FB2AB74000B91F7 /* Unwander.xcdatamodel */,
+				3D5600ED1FB2C05F000B91F7 /* Auth0Sample.xcdatamodel */,
 			);
-			currentVersion = 3D5600A31FB2AB74000B91F7 /* Unwander.xcdatamodel */;
+			currentVersion = 3D5600ED1FB2C05F000B91F7 /* Auth0Sample.xcdatamodel */;
 			path = Unwander.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

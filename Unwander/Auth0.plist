@@ -2,7 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>_XCCurrentVersionName</key>
-	<string>Unwander.xcdatamodel</string>
+	<key>ClientId</key>
+	<string>fI7CopuqaTUKE1QPMwOBSW7QTCsf5DJd</string>
+	<key>Domain</key>
+	<string>unwander.eu.auth0.com</string>
 </dict>
 </plist>
